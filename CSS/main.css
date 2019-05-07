@@ -1,0 +1,26 @@
+body{
+    margin: 0px;
+    padding: 0px;    
+}
+
+ul {
+    background-color: blueviolet;
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    overflow: hidden;
+    border-right: 4px solid black;
+    width: 100px;
+}
+.navbar li a{
+    display: block;
+    padding: 20px 7.5px;
+    text-decoration: none;
+    color: white;
+    font-size: 16pt;
+    
+}
+.navbar li a:hover{
+    background-color: black;
+    /*transform: translate(2px, 2px) */
+}
