@@ -4,6 +4,7 @@ body{
 }
 
 ul {
+    float:left;
     background-color: blueviolet;
     padding: 0px;
     margin: 0px;
@@ -23,4 +24,15 @@ ul {
 .navbar li a:hover{
     background-color: black;
     /*transform: translate(2px, 2px) */
+}
+.mainscreen .courses{
+    float: left;
+}
+.mainscreen .courses a{
+    display: block;
+    padding: 10px 10px;
+    text-decoration: underline;
+    color: black;
+    font-size: 24pt;
+
 }
