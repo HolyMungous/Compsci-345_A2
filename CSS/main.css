@@ -21,7 +21,7 @@ ul {
     font-size: 16pt;
     
 }
-.navbar li a:hover{
+.navbar li:hover{
     background-color: black;
     /*transform: translate(2px, 2px) */
 }
