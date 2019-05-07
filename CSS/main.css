@@ -5,7 +5,7 @@ body{
 
 ul {
     float:left;
-    background-color: blueviolet;
+    background-color: #484a47;
     padding: 0px;
     margin: 0px;
     list-style-type: none;
@@ -15,24 +15,43 @@ ul {
 }
 .navbar li a{
     display: block;
-    padding: 20px 7.5px;
+    padding: 0px 7.5px;
     text-decoration: none;
     color: white;
     font-size: 16pt;
     
 }
+.logo {
+    width:75px;
+    height:75px;
+    padding: 0px 7.5px
+
+}
+.navbar li img{
+    padding: 0px 7.5px;
+    width: 75px;
+    height: 75px;
+}
 .navbar li:hover{
-    background-color: black;
+    background-color: #e26d5c;
     /*transform: translate(2px, 2px) */
 }
 .mainscreen .courses{
     float: left;
 }
 .mainscreen .courses a{
-    display: block;
+    float: left;
     padding: 10px 10px;
+    padding-right: 0px;
     text-decoration: underline;
     color: black;
-    font-size: 24pt;
-
+    font-size: 24pt
+}
+.mainscreen .courses img{
+    width: 30px;
+    height:30px;
+    padding-top: 12px;
+}
+.mainscreen .courses:hover{
+    background-color: #e26d5c;
 }
