@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" content="width=device-width, initial-scale=1 ">
+        <link rel="stylesheet" href="../CSS/new_task.css">
+        <title>Savnac-Tasks</title>
+    </head>
+<body>
+    <ul class="navbar">
+        <img class="logo" src="../Icons/SAVNAC.png">
+        <li>
+            <img src="../Icons/clipboard.png" >
+            <a href="Tasks_Dashboard.html">Tasks</a> 
+        </li>
+        <li>
+            <img src="../Icons/calender.png">
+            <a href="#calender">Calendar</a>
+        </li>
+        <li>
+            <img src="../Icons/mail.png">
+            <a href="#messages">Messages</a>
+        </li>
+        <li>
+            <img src="../Icons/groups.png">
+            <a href="#meetings">Meetings</a>
+        </li>
+        <li id="settings">
+            <img src="../Icons/options.png">
+        </li>
+    </ul>
+    <div class="mainscreen">
+        
+        <div class="topSection">
+        
+            <div class="courses">
+                <a href="Tasks_Dashboard.html">COMPSCI 345</a>
+                <img src="../Icons/down_arrow.png">
+            </div>
+            <div class="members">
+                <img src="../Icons/groups.png">
+                <img src="../Icons/groups.png">
+                <img src="../Icons/groups.png">
+                <img src="../Icons/groups.png">
+                <img src="../Icons/groups.png">
+            </div>
+            
+            
+        
+        </div>
+
+        <div class="messages">
+            Messages go here
+        </div>
+        <div class="assignment">
+            <div class="assignment_head">
+                ASSIGNMENT 1:
+                <img src="../Icons/plus.png" id="add_task">
+                <img src="../Icons/search.png" id="search">
+
+            </div>
+            
+            <br>
+            Task bars go here
+        </div>
+        <div class="calendar">
+            Calendar goes here
+        </div>
+
+        
+    </div>
+
+    <div class="new_task">
+        <div class="new_task_title">
+            <h1>
+                New Task
+            </h1>
+        </div>
+        <form class="new_task_box">
+            Name: <input type="text">
+            Checklist:       <br>
+            Discription:<textarea type="textarea" rows="4" name="Discription:">
+                Enter details here...
+            </textarea><br>
+            Project: <input list="Assignments"> <br>
+            Due Date: <input type="date"> 
+            <input type="Button" value="Cancel ">
+            <input type="button" value="Done"> <br>
+            
+        </from>
+        <datalist id="Assignments">
+            <option value="Assignment 1">
+            <option value="Assignment 1">
+          </datalist>
+    </div>
+</body>
+</html>
