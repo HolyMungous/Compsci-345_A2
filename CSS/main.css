@@ -65,7 +65,6 @@ ul {
     width: 85vw;
     height: 20vh;
     border-bottom: 1px solid grey;
-    
 }
 .mainscreen .courses a{
     padding: 1vh 0vw;
@@ -77,7 +76,6 @@ ul {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
     float: left;
-
 }
 
 .mainscreen .courses img{
@@ -121,18 +119,18 @@ ul {
 .messages {
     width: 30vw;
     height: 35vh;
-    background-color: aqua;
     margin-top: 3vh;
     display: inline-block;
     vertical-align: top;
+    border: 1px solid black;
 }
 
 .calendar {
     width: 30vw;
     height: 35vh;
-    background-color: red;
     margin-top: 3vh;
     display: inline-block;
+    border: 1px solid black;
 }
 
 .assignment {
@@ -164,4 +162,29 @@ ul {
 
 #add_task:target, #add_task:target + .mainscreen{
     opacity: 2;
+}
+
+#notification {
+    height: 10vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3vh;
+    border: 1px solid black;
+    display: table;
+}
+
+#star {
+    height: 9vh;
+    width: 9vh;
+    margin-left: 1vh;
+    margin-top: 0.5vh;
+}
+
+#notification_text {
+    height: 9vh;
+    text-justify: left;
+    margin-top: 15px;
+}
+
+.column {
+    float: left;
 }
