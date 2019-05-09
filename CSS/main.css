@@ -141,6 +141,8 @@ ul {
     display: inline-block;
     margin-left: 3vw;
     margin-top: 3vh;
+    float: right;
+    vertical-align: top;
 }
 
 .assignment_head {
