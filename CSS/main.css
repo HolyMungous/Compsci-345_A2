@@ -26,22 +26,22 @@ ul {
 
 .navbar li a{
     display: block;
-    padding: 0px 7.5px;
     text-decoration: none;
     color: white;
     font-size: 16pt;
+    text-align: center;
 }
 
 .logo {
-    width: 8.2vw;
-    height: 8.2vw;
-    padding: 1.6vw 1.6vw 0px 1.6vw;
+    width: 7vw;
+    height: 7vw;
+    padding: 1.5vw 2.5vw 0px 2.5vw;
 }
 
 .navbar li img{
-    padding: 0px 7.5px;
-    width: 75px;
-    height: 75px;
+    width: 5vw;
+    height: 5vw;
+    padding: 1vw 3.5vw 0vw 3.5vw;
 }
 .navbar li:hover{
     background-color: #e1705e;
@@ -110,4 +110,53 @@ ul {
     width: 200px;
     height: 175px;
     padding: 25px 25px;
+}
+
+#settings {
+    position: fixed;
+    bottom: 0;
+    padding-bottom: 1vw;
+}
+
+.messages {
+    width: 30vw;
+    height: 35vh;
+    background-color: aqua;
+    margin-top: 3vh;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.calendar {
+    width: 30vw;
+    height: 35vh;
+    background-color: red;
+    margin-top: 3vh;
+    display: inline-block;
+}
+
+.assignment {
+    width: 50vw;
+    background-color: green;
+    display: inline-block;
+    margin-left: 3vw;
+    margin-top: 3vh;
+}
+
+.assignment_head {
+    width: 100%;
+    font-size: 4vh;
+}
+
+#search {
+    width: 2.6vw;
+    height: 2.6vw;
+    float: right;
+    margin-right: 0.5vw;
+}
+
+#add_task {
+    width: 2.6vw;
+    height: 2.6vw;
+    float: right;
 }
