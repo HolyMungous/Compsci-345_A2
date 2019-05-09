@@ -122,7 +122,7 @@ ul {
     margin-top: 3vh;
     display: inline-block;
     vertical-align: top;
-    border: 1px solid black;
+    background-color: #484a47;
 }
 
 .calendar {
@@ -139,12 +139,12 @@ ul {
     display: inline-block;
     margin-left: 3vw;
     margin-top: 3vh;
-    float: right;
 }
 
 .assignment_head {
     width: 100%;
     font-size: 4vh;
+    font-weight: bold;
 }
 
 #search {
@@ -168,8 +168,8 @@ ul {
     height: 10vh;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 3vh;
-    border: 1px solid black;
     display: table;
+    background-color: #0fb7bb;
 }
 
 #star {
@@ -183,8 +183,28 @@ ul {
     height: 9vh;
     text-justify: left;
     margin-top: 15px;
+    color: white;
 }
 
 .column {
     float: left;
+}
+
+#select_assignment {
+    height: 2vw;
+    width: 2vw;
+}
+
+.message {
+    height: 7.5vh;
+    font-size: 1.5vw;
+
+}
+
+.message_image {
+    width: 2.6vw;
+    height: 2.6vw;
+    margin-top: 1.5vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
 }
