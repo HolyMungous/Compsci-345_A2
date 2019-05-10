@@ -122,38 +122,42 @@ ul {
     margin-top: 3vh;
     display: inline-block;
     vertical-align: top;
-    background-color: #484a47;
+    background-color: white;
+    box-shadow: 10px 10px 5px grey;
+    border: 1px solid #0fb7bb;
 }
 
 .calendar {
     margin-top: 3vh;
     display: inline-block;
+    box-shadow: 10px 10px 5px grey;
 }
 
-.assignment {
+.right_section {
     width: 50vw;
-    background-color: green;
     display: inline-block;
     margin-left: 3vw;
     margin-top: 3vh;
+    vertical-align: top;
 }
 
 .assignment_head {
     width: 100%;
-    font-size: 4vh;
+    font-size: 5vh;
     font-weight: bold;
+    color: #484a47;
 }
 
 #search {
-    width: 2.6vw;
-    height: 2.6vw;
+    width: 3vw;
+    height: 3vw;
     float: right;
     margin-right: 0.5vw;
 }
 
 #add_task {
-    width: 2.6vw;
-    height: 2.6vw;
+    width: 3vw;
+    height: 3vw;
     float: right;
 }
 
@@ -169,8 +173,8 @@ ul {
 }
 
 #star {
-    height: 9vh;
-    width: 9vh;
+    height: 10vh;
+    width: 10vh;
     margin-left: 1vh;
     margin-top: 0.5vh;
 }
@@ -191,29 +195,33 @@ ul {
     width: 2vw;
 }
 
-#progressbar {
+.progressbar {
     background-color: #484a47;
     border-radius: 15px;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
+    box-shadow: 10px 10px 5px -2px grey;
   }
   
-#progressbar>div {
+.progressbar>div {
     background-color: #0fb7bb;
-    height: 40px;
+    height: 60px;
     border-radius: 15px;
     padding-left: 15px;
+    margin-bottom: 20px;
     display: table;
   }
 
-#progressbar>div h2{
+.progressbar>div h2{
     vertical-align: middle;
     margin: 0vh;
-    padding: 1vh; 
+    padding: 2vh; 
+    color: #484a47;
 }
 .message {
     height: 7.5vh;
     font-size: 1.5vw;
+    color: #484a47;
 }
 
 .message_image {
@@ -227,4 +235,10 @@ ul {
 #calendar_image {
     width: 30vw;
     height: 35vh;
+    vertical-align: bottom;
+}
+
+.left_section {
+    width: 35%;
+    display: inline-block;
 }
