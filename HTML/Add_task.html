@@ -49,7 +49,7 @@
         <div class="assignment">
             <div class="assignment_head">
                 ASSIGNMENT 1:
-                <img src="../Icons/plus.png" id="add_task">
+                <img src="../Icons/plus.png" id="add_task" onclick="on()">
                 <img src="../Icons/search.png" id="search">
 
             </div>
@@ -63,13 +63,14 @@
 
         
     </div>
-
+    <div id="overlay">
     <div class="new_task">
         <div class="new_task_title">
             <h1>
                 New Task
             </h1>
         </div>
+        <div></div>
         <form class="new_task_box">
             <table style="width:100%">
                 <tr>
@@ -80,6 +81,7 @@
                             <td><input type="text"><br></td>
                         </tr>
                         <tr>
+                            
                             <td style="vertical-align: top;">Description:</td>
                             <td><textarea type="textarea" rows="4" name="Description:">
                             </textarea><br></td>
@@ -101,6 +103,7 @@
                             <input type="checkbox" name="2" > Format Document<br>
                             <input type="checkbox" name="3" > Spell check<br>
                             <input type="checkbox" name="4" > Proof Read<br>
+                            <img src="../Icons/plus.png">
                         </div>
                         <br>
                         Contributors:<br>
@@ -111,8 +114,8 @@
                             <img src="../Icons/profileOffline.png">Lewis
                         </div>
                         <br>
-                        <input class="buttons_new_task" type="button" value="Done">
-                        <input class="buttons_new_task" type="Button" value="Cancel ">
+                        <input class="buttons_new_task" type="button" value="Done" onclick="off()">
+                        <input class="buttons_new_task" type="Button" value="Cancel" onclick="off()">
                         <br>
                     </td>
                 </tr>
@@ -123,5 +126,16 @@
             <option value="Assignment 2">
           </datalist>
     </div>
+    </div>
+
+    <script>
+        function on() {
+            document.getElementById("overlay").style.display = "block";
+        }
+            
+        function off() {
+            document.getElementById("overlay").style.display = "none";
+        }
+    </script>
 </body>
 </html>
