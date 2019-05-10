@@ -191,6 +191,26 @@ ul {
     width: 2vw;
 }
 
+#progressbar {
+    background-color: #484a47;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+#progressbar>div {
+    background-color: #0fb7bb;
+    height: 40px;
+    border-radius: 15px;
+    padding-left: 15px;
+    display: table;
+  }
+
+#progressbar>div h2{
+    vertical-align: middle;
+    margin: 0vh;
+    padding: 1vh; 
+}
 .message {
     height: 7.5vh;
     font-size: 1.5vw;
