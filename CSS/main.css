@@ -135,10 +135,12 @@ ul {
 
 .right_section {
     width: 50vw;
+    height: 80vh;
     display: inline-block;
     margin-left: 3vw;
     margin-top: 3vh;
     vertical-align: top;
+    overflow-y: scroll;
 }
 
 .assignment_head {
@@ -201,6 +203,7 @@ ul {
     margin-top: 10px;
     margin-bottom: 25px;
     box-shadow: 10px 10px 5px -2px grey;
+    margin-right: 15px;
   }
   
 .progressbar>div {
@@ -311,4 +314,65 @@ tbody {
     left: 0;
     background-color: rgba(0,0,0,0.5);
     z-index: 2;
+}
+#superscript {
+    color: #e1705e;
+    font-size: 15px;
+}
+#added_task{
+    text-align: center;
+}
+.dropdown {
+    font-size: 1.7vw;
+    background-color: white;
+    width: 90%;
+    display: inline-block;
+    margin-right: 12px;
+    border-bottom: 1px solid #0fb7bb;
+    border-left: 1px solid #0fb7bb;
+    border-right: 1px solid #0fb7bb;
+    text-align: left;
+    margin-bottom: 20px;
+    color: #484a47;
+    box-shadow: 10px 10px 5px grey;
+}
+#attach {
+    width: 3vw;
+    height: 3vw;
+    float: right;
+    margin-right: 0.5vw;
+}
+#edit {
+    width: 3vw;
+    height: 3vw;
+    float: right;
+    margin-right: 0.5vw;
+}
+.dropdown_head {
+    padding-top: 5px;
+    padding-left: 10px;
+}
+#drop_table {
+    padding-left: 10px;
+    padding-top: 10px;
+    display: inline-block;
+}
+.dropdown_image {
+    width: 2.6vw;
+    height: 2.6vw;
+    margin-top: 1.5vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    float: right;
+    vertical-align: bottom;
+}
+.drop_images {
+    display: inline-block;
+    margin-top: auto;
+}
+.dropdown_body {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
 }
