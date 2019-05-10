@@ -169,11 +169,29 @@ ul {
 .new_task {
     display: inline;
     float: right;
-    
+    margin: 5vw;
 }
 
 .new_task_title {
     border: 2px solid #484a47;
+    border-bottom: none;
     background-color: #0fb7bb;
-    padding: .5vw 1.5vw;
+    padding: 0vw 1.5vw;
+    width: 12.5vw;
+    height: 10vh;
+}
+
+.new_task_box {
+    border: 2px solid #484a47; 
+    display: inline-block; 
+    width: 500px;
+}
+.new_task_title h1{
+    font-size: 2.5vw;
+}
+
+.check_box {
+    border: 1px solid #484a47;
+    background-color: #e1705e;  
+    display: inline-block;
 }

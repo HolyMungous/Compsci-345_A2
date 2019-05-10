@@ -71,16 +71,45 @@
             </h1>
         </div>
         <form class="new_task_box">
-            Name: <input type="text">
-            Checklist:       <br>
-            Discription:<textarea type="textarea" rows="4" name="Discription:">
-                Enter details here...
-            </textarea><br>
-            Project: <input list="Assignments"> <br>
-            Due Date: <input type="date"> 
-            <input type="Button" value="Cancel ">
-            <input type="button" value="Done"> <br>
-            
+            <table style="width:100%">
+                <tr>
+                    <td>
+                        <table>
+                        <tr>
+                            <td>Name:</td>
+                            <td><input type="text"><br></td>
+                        </tr>
+                        <tr>
+                            <td style="vertical-align: top;">Description:</td>
+                            <td><textarea type="textarea" rows="4" name="Description:">
+                                    Enter details here...
+                            </textarea><br></td>
+                        </tr>
+                        <tr>
+                            <td>Project: </td>
+                            <td><input style="align-self: right" list="Assignments"></td>
+                        </tr>
+                        <tr>
+                            <td>Due Date: </td>
+                            <td><input type="date"></td>
+                        </tr>
+                    </table>
+                    </td>
+                    <td>
+                        Checklist:<br>
+                        <div class="check_box">
+                            <input type="checkbox" name="1" > Peer Review<br>
+                            <input type="checkbox" name="2" > Format Document<br>
+                            <input type="checkbox" name="3" > Spell check<br>
+                            <input type="checkbox" name="4" > Proof Read<br>
+                        </div>
+                        <br>
+                        <br>
+                        <input type="Button" value="Cancel ">
+                        <input type="button" value="Done"> <br>
+                    </td>
+                </tr>
+            </table>
         </from>
         <datalist id="Assignments">
             <option value="Assignment 1">
