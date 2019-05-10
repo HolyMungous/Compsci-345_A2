@@ -49,9 +49,12 @@ ul {
 }
 
 .mainscreen{
+    width: 86.5vw;
+    height: 100vh;
+    float: right;
     margin: 0px;
     padding: 0px;
-    display: inline;
+    /*display: inline;*/
 }
 
 .courses,.navbar{
