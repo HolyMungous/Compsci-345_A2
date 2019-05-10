@@ -41,7 +41,7 @@ ul {
 .navbar li img{
     width: 5vw;
     height: 5vw;
-    padding: 1vw 3.5vw 0vw 3.5vw;
+    padding: 10px 3.5vw 0vw 3.5vw;
 }
 .navbar li:hover{
     background-color: #e1705e;
@@ -51,10 +51,10 @@ ul {
 .mainscreen{
     width: 86.5vw;
     height: 100vh;
-    margin: 0px;
     float: right;
+    margin: 0px;
     padding: 0px;
-    display: inline;
+    /*display: inline;*/
 }
 
 .courses,.navbar{
@@ -135,10 +135,12 @@ ul {
 
 .right_section {
     width: 50vw;
+    height: 80vh;
     display: inline-block;
     margin-left: 3vw;
     margin-top: 3vh;
     vertical-align: top;
+    overflow-y: scroll;
 }
 
 .assignment_head {
@@ -197,16 +199,17 @@ ul {
 
 .progressbar {
     background-color: #484a47;
-    border-radius: 15px;
+    border-radius: 30px;
     margin-top: 10px;
     margin-bottom: 25px;
     box-shadow: 10px 10px 5px -2px grey;
+    margin-right: 15px;
   }
   
 .progressbar>div {
     background-color: #0fb7bb;
     height: 60px;
-    border-radius: 15px;
+    border-radius: 30px;
     padding-left: 15px;
     margin-bottom: 20px;
     display: table;
@@ -215,8 +218,8 @@ ul {
 .progressbar>div h2{
     vertical-align: middle;
     margin: 0vh;
-    padding: 2vh; 
-    color: #484a47;
+    padding: 2.5vh 0 0 2vh; 
+    color: white;
 }
 .message {
     height: 7.5vh;
@@ -243,6 +246,111 @@ ul {
     display: inline-block;
 }
 
+#complete {
+    border: 4px solid #e1705e;
+}
+
+#superscript {
+    color: #e1705e;
+    font-size: 15px;
+}
+#added_task{
+    text-align: center;
+}
+.dropdown {
+    font-size: 1.7vw;
+    background-color: white;
+    width: 90%;
+    display: inline-block;
+    margin-right: 12px;
+    border-bottom: 1px solid #0fb7bb;
+    border-left: 1px solid #0fb7bb;
+    border-right: 1px solid #0fb7bb;
+    text-align: left;
+    margin-bottom: 20px;
+    color: #484a47;
+    box-shadow: 10px 10px 5px grey;
+}
+#attach {
+    width: 3vw;
+    height: 3vw;
+    float: right;
+    margin-right: 0.5vw;
+}
+#edit {
+    width: 3vw;
+    height: 3vw;
+    float: right;
+    margin-right: 0.5vw;
+}
+.dropdown_head {
+    padding-top: 5px;
+    padding-left: 10px;
+}
+#drop_table {
+    padding-left: 10px;
+    padding-top: 10px;
+    display: inline-block;
+}
+.dropdown_image {
+    width: 2.6vw;
+    height: 2.6vw;
+    margin-top: 1.5vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    float: right;
+    vertical-align: bottom;
+}
+.drop_images {
+    display: inline-block;
+    margin-top: auto;
+}
+.dropdown_body {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.review_button {
+    padding-top: 5px;
+    display: inline-block;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 16vw;
+    text-align: center;
+    border-radius: 20px;
+    color: white;
+    border: 1px solid white;
+    background-color: #e1705e;
+}
+.confirm_button {
+    padding-top: 5px;
+    display: inline-block;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 16vw;
+    text-align: center;
+    border-radius: 20px;
+    color: white;
+    border: 1px solid white;
+    background-color: #484a47;
+}
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+}
+.review_button:hover {
+    background-color: white;
+    border: 1px solid black;
+    color: #e1705e;
+}
+
 .new_task {
     position: absolute;
     top: 10vw;
@@ -256,10 +364,11 @@ ul {
     border-bottom: none;
     background-color: #0fb7bb;
     width: 40vw;
-    height: 12vh;
+    height: 10vh;
     text-align: center;
     color: WHITE;
     vertical-align: middle;
+    padding-top: 1vw;
     
 }
 
