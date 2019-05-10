@@ -197,7 +197,7 @@ ul {
 
 .progressbar {
     background-color: #484a47;
-    border-radius: 15px;
+    border-radius: 30px;
     margin-top: 10px;
     margin-bottom: 25px;
     box-shadow: 10px 10px 5px -2px grey;
@@ -206,7 +206,7 @@ ul {
 .progressbar>div {
     background-color: #0fb7bb;
     height: 60px;
-    border-radius: 15px;
+    border-radius: 30px;
     padding-left: 15px;
     margin-bottom: 20px;
     display: table;
@@ -215,8 +215,8 @@ ul {
 .progressbar>div h2{
     vertical-align: middle;
     margin: 0vh;
-    padding: 2vh; 
-    color: #484a47;
+    padding: 2.5vh 0 0 2vh; 
+    color: white;
 }
 .message {
     height: 7.5vh;
@@ -241,4 +241,8 @@ ul {
 .left_section {
     width: 35%;
     display: inline-block;
+}
+
+#complete {
+    border: 4px solid #e1705e;
 }
