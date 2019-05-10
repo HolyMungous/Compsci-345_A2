@@ -188,10 +188,25 @@ ul {
 }
 .new_task_title h1{
     font-size: 2.5vw;
+    margin: 0px;
+    padding: 0.75vw 0vw;
 }
 
 .check_box {
     border: 1px solid #484a47;
-    background-color: #e1705e;  
+    padding: 0.5vw;  
     display: inline-block;
+}
+
+.contributor_box {
+    
+    border: 1px solid #484a47;
+}
+.contributor_box img{
+    width: 2vw;
+    height: 2vw;
+}
+.buttons_new_task{
+    float: right;  
+    margin: 0.75vw; 
 }
