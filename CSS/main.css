@@ -41,7 +41,7 @@ ul {
 .navbar li img{
     width: 5vw;
     height: 5vw;
-    padding: 1vw 3.5vw 0vw 3.5vw;
+    padding: 10px 3.5vw 0vw 3.5vw;
 }
 .navbar li:hover{
     background-color: #e1705e;
@@ -375,4 +375,43 @@ tbody {
     display: flex;
     justify-content: space-between;
     margin-bottom: 10px;
+}
+.review_button {
+    padding-top: 5px;
+    display: inline-block;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 16vw;
+    text-align: center;
+    border-radius: 20px;
+    color: white;
+    border: 1px solid white;
+    background-color: #e1705e;
+}
+.confirm_button {
+    padding-top: 5px;
+    display: inline-block;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 16vw;
+    text-align: center;
+    border-radius: 20px;
+    color: white;
+    border: 1px solid white;
+    background-color: #484a47;
+}
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+}
+.review_button:hover {
+    background-color: white;
+    border: 1px solid black;
+    color: #e1705e;
 }
