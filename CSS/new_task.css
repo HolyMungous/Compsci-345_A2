@@ -245,28 +245,30 @@ ul {
 
 .new_task {
     position: absolute;
-    top: 5vw;
-    left: 25vw;
-    display: inline;
+    top: 10vw;
+    left: 30vw;
     float: right;
-    margin: 5vw;
-    background-color: whitesmoke;
+    margin: 0vw;
 }
 
+
 .new_task_title {
-    border: 2px solid #484a47;
     border-bottom: none;
     background-color: #0fb7bb;
-    padding: 0vw 1.5vw;
-    width: 12.5vw;
-    height: 10vh;
+    width: 40vw;
+    height: 12vh;
+    text-align: center;
+    color: WHITE;
+    vertical-align: middle;
+    
 }
 
 .new_task_box {
-    border: 2px solid #484a47; 
     display: inline-block; 
     width: 40vw;
+    background-color: white;
 }
+
 .new_task_title h1{
     font-size: 2.5vw;
     margin: 0px;
@@ -274,8 +276,8 @@ ul {
 }
 
 .check_box {
-    border: 1px solid #484a47;
-    padding: 0.5vw;  
+    margin-bottom: 1vw;
+    padding: 1vw;  
     display: inline-block;
 }
 .check_box img{
@@ -284,8 +286,9 @@ ul {
     float: left;
     padding: 0vw 0.25vw;
 }
-.contributor_box {
-    border: 1px solid #484a47;
+
+.contributor_box{
+    padding-TOP: 1vw ;  
 }
 .contributor_box img{
     width: 2vw;
@@ -293,7 +296,8 @@ ul {
 }
 .buttons_new_task{
     float: right;  
-    margin: 0.75vw; 
+    margin: 0vw 0.5vw;
+    margin-bottom: 0.5vw; 
 }
 tbody {
     vertical-align: top;
@@ -307,6 +311,6 @@ tbody {
     bottom: 0;
     right: 0;
     left: 0;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0,0.75);
     z-index: 2;
 }
